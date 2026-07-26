@@ -1,1189 +1,1189 @@
 {
-    "schemaVersion": 1,
-    "metadata": {
-        "plugin": "text2audio",
-        "version": "1.0.0",
-        "title": "Text2Audio",
-        "description": "Text2Audio Localization & Tweaks",
-        "language": "zh-cn",
-        "supportedVersions": "4.1.0",
-        "author": ""
-    },
-    "dict": {
-        "main.js": {
-            "ast": [
-                {
-                    "type": "CallExpression",
-                    "name": "log",
-                    "source": "buffer filled, pausing addition of binaries until space is made",
-                    "target": "缓冲区已满，暂停添加二进制数据，直到腾出空间"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setTitle",
-                    "source": "Read the selected text",
-                    "target": "朗读所选文本"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "Play back is not supported for raw PCM, mulaw or alaw format without header.",
-                    "target": "无头的原始 PCM、mulaw 或 alaw 格式不支持播放。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "Your Azure AI services API's secret key.",
-                    "target": "您的 Azure AI 服务 API 密钥。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "Your Azure AI services API's region.",
-                    "target": "您的 Azure AI 服务 API 区域。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "Save the audio file to this directory.",
-                    "target": "将音频文件保存到此目录。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "Select plugin language.",
-                    "target": "选择插件语言。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "The language type of the speech.",
-                    "target": "语音的语言类型。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "The voice type of the speech.",
-                    "target": "语音的声音类型。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "The audio format of the speech.",
-                    "target": "语音的音频格式。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "Whether to insert the generated speech at the location of the cursor?",
-                    "target": "是否在光标位置插入生成的语音？"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "Whether to stop playing when closing or opening a note?",
-                    "target": "关闭或打开笔记时是否停止播放？"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "Whether to terminate speech conversion when closing or opening a note?",
-                    "target": "关闭或打开笔记时是否终止语音转换？"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "Read content before or after the cursor.",
-                    "target": "读取光标前或后的内容。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "The voice-specific speaking style.",
-                    "target": "语音专属的说话风格。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "The speaking role-play.",
-                    "target": "说话角色扮演。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "The intensity of the speaking style.",
-                    "target": "说话风格的强度。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "Set the audio playback speed.",
-                    "target": "设置音频播放速度。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "Indicates the volume level of the speaking voice.",
-                    "target": "指示语音音量级别。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "If you turn off developer mode, the configuration in this mode will become invalid.",
-                    "target": "如果关闭开发者模式，此模式下的配置将失效。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "desc",
-                    "source": "The rule for filtering characters that do not need to be converted to speech.",
-                    "target": "用于过滤无需转换为语音的字符的规则。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "南非荷兰语 (南非)",
-                    "target": "南非荷兰语 (南非)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿姆哈拉语 (埃塞俄比亚)",
-                    "target": "阿姆哈拉语 (埃塞俄比亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (阿拉伯联合酋长国)",
-                    "target": "阿拉伯语 (阿拉伯联合酋长国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (巴林)",
-                    "target": "阿拉伯语 (巴林)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (阿尔及利亚)",
-                    "target": "阿拉伯语 (阿尔及利亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (埃及)",
-                    "target": "阿拉伯语 (埃及)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (伊拉克)",
-                    "target": "阿拉伯语 (伊拉克)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (约旦)",
-                    "target": "阿拉伯语 (约旦)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (科威特)",
-                    "target": "阿拉伯语 (科威特)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (黎巴嫩)",
-                    "target": "阿拉伯语 (黎巴嫩)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (利比亚)",
-                    "target": "阿拉伯语 (利比亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (摩洛哥)",
-                    "target": "阿拉伯语 (摩洛哥)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (阿曼)",
-                    "target": "阿拉伯语 (阿曼)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (卡塔尔)",
-                    "target": "阿拉伯语 (卡塔尔)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (沙特阿拉伯)",
-                    "target": "阿拉伯语 (沙特阿拉伯)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (叙利亚)",
-                    "target": "阿拉伯语 (叙利亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (突尼斯)",
-                    "target": "阿拉伯语 (突尼斯)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿拉伯语 (也门)",
-                    "target": "阿拉伯语 (也门)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿塞拜疆语 (拉丁语，阿塞拜疆)",
-                    "target": "阿塞拜疆语 (拉丁语，阿塞拜疆)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "保加利亚语 (保加利亚)",
-                    "target": "保加利亚语 (保加利亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "孟加拉语 (孟加拉国)",
-                    "target": "孟加拉语 (孟加拉国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "孟加拉语 (印度)",
-                    "target": "孟加拉语 (印度)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "波斯尼亚语 (波斯尼亚和黑塞哥维那)",
-                    "target": "波斯尼亚语 (波斯尼亚和黑塞哥维那)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "加泰罗尼亚语",
-                    "target": "加泰罗尼亚语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "捷克语 (捷克)",
-                    "target": "捷克语 (捷克)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "威尔士语 (英国)",
-                    "target": "威尔士语 (英国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "丹麦语 (丹麦)",
-                    "target": "丹麦语 (丹麦)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "德语 (奥地利)",
-                    "target": "德语 (奥地利)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "德语 (瑞士)",
-                    "target": "德语 (瑞士)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "德语 (德国)",
-                    "target": "德语 (德国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "希腊语 (希腊)",
-                    "target": "希腊语 (希腊)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (澳大利亚)",
-                    "target": "英语 (澳大利亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (加拿大)",
-                    "target": "英语 (加拿大)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (英国)",
-                    "target": "英语 (英国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (香港特別行政区)",
-                    "target": "英语 (香港特别行政区)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (爱尔兰)",
-                    "target": "英语 (爱尔兰)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (印度)",
-                    "target": "英语 (印度)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (肯尼亚)",
-                    "target": "英语 (肯尼亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (尼日利亚)",
-                    "target": "英语 (尼日利亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (新西兰)",
-                    "target": "英语 (新西兰)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (菲律宾)",
-                    "target": "英语 (菲律宾)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (新加坡)",
-                    "target": "英语 (新加坡)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (坦桑尼亚)",
-                    "target": "英语 (坦桑尼亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (美国)",
-                    "target": "英语 (美国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "英语 (南非)",
-                    "target": "英语 (南非)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (阿根廷)",
-                    "target": "西班牙语 (阿根廷)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (玻利维亚)",
-                    "target": "西班牙语 (玻利维亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (智利)",
-                    "target": "西班牙语 (智利)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (哥伦比亚)",
-                    "target": "西班牙语 (哥伦比亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (哥斯达黎加)",
-                    "target": "西班牙语 (哥斯达黎加)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (古巴)",
-                    "target": "西班牙语 (古巴)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (多米尼加共和国)",
-                    "target": "西班牙语 (多米尼加共和国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (厄瓜多尔)",
-                    "target": "西班牙语 (厄瓜多尔)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (西班牙)",
-                    "target": "西班牙语 (西班牙)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (赤道几内亚)",
-                    "target": "西班牙语 (赤道几内亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (危地马拉)",
-                    "target": "西班牙语 (危地马拉)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (洪都拉斯)",
-                    "target": "西班牙语 (洪都拉斯)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (墨西哥)",
-                    "target": "西班牙语 (墨西哥)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙 (尼加拉瓜)",
-                    "target": "西班牙 (尼加拉瓜)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (巴拿马)",
-                    "target": "西班牙语 (巴拿马)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (秘鲁)",
-                    "target": "西班牙语 (秘鲁)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (波多黎各)",
-                    "target": "西班牙语 (波多黎各)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (巴拉圭)",
-                    "target": "西班牙语 (巴拉圭)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (萨尔瓦多)",
-                    "target": "西班牙语 (萨尔瓦多)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (美国)",
-                    "target": "西班牙语 (美国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (乌拉圭)",
-                    "target": "西班牙语 (乌拉圭)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "西班牙语 (委内瑞拉)",
-                    "target": "西班牙语 (委内瑞拉)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "爱沙尼亚语 (爱沙尼亚)",
-                    "target": "爱沙尼亚语 (爱沙尼亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "巴斯克语",
-                    "target": "巴斯克语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "波斯语 (伊朗)",
-                    "target": "波斯语 (伊朗)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "芬兰语 (芬兰)",
-                    "target": "芬兰语 (芬兰)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "菲律宾语 (菲律宾)",
-                    "target": "菲律宾语 (菲律宾)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "法语 (比利时)",
-                    "target": "法语 (比利时)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "法语 (加拿大)",
-                    "target": "法语 (加拿大)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "法语 (瑞士)",
-                    "target": "法语 (瑞士)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "法语 (法国)",
-                    "target": "法语 (法国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "爱尔兰语 (爱尔兰)",
-                    "target": "爱尔兰语 (爱尔兰)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "加利西亚语",
-                    "target": "加利西亚语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "古吉拉特语 (印度)",
-                    "target": "古吉拉特语 (印度)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "希伯来语 (以色列)",
-                    "target": "希伯来语 (以色列)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "印地语 (印度)",
-                    "target": "印地语 (印度)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "克罗地亚语 (克罗地亚)",
-                    "target": "克罗地亚语 (克罗地亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "匈牙利语 (匈牙利)",
-                    "target": "匈牙利语 (匈牙利)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "亚美尼亚语 (亚美尼亚)",
-                    "target": "亚美尼亚语 (亚美尼亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "印度尼西亚语 (印度尼西亚)",
-                    "target": "印度尼西亚语 (印度尼西亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "冰岛语 (冰岛)",
-                    "target": "冰岛语 (冰岛)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "意大利语 (意大利)",
-                    "target": "意大利语 (意大利)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "日语 (日本)",
-                    "target": "日语 (日本)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "爪哇语 (拉丁语、印度尼西亚)",
-                    "target": "爪哇语 (拉丁语、印度尼西亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "格鲁吉亚语 (格鲁吉亚)",
-                    "target": "格鲁吉亚语 (格鲁吉亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "哈萨克语 (哈萨克斯坦)",
-                    "target": "哈萨克语 (哈萨克斯坦)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "高棉语 (柬埔寨)",
-                    "target": "高棉语 (柬埔寨)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "卡纳达语 (印度)",
-                    "target": "卡纳达语 (印度)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "韩语 (韩国)",
-                    "target": "韩语 (韩国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "老挝语 (老挝)",
-                    "target": "老挝语 (老挝)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "立陶宛语 (立陶宛)",
-                    "target": "立陶宛语 (立陶宛)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "拉脱维亚语 (拉脱维亚)",
-                    "target": "拉脱维亚语 (拉脱维亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "马其顿语 (北马其顿)",
-                    "target": "马其顿语 (北马其顿)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "马拉雅拉姆语 (印度)",
-                    "target": "马拉雅拉姆语 (印度)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "蒙古语 (蒙古)",
-                    "target": "蒙古语 (蒙古)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "马拉地语 (印度)",
-                    "target": "马拉地语 (印度)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "马来语 (马来西亚)",
-                    "target": "马来语 (马来西亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "马耳他语 (马耳他)",
-                    "target": "马耳他语 (马耳他)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "缅甸语 (缅甸)",
-                    "target": "缅甸语 (缅甸)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "书面挪威语 (挪威)",
-                    "target": "书面挪威语 (挪威)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "尼泊尔语 (尼泊尔)",
-                    "target": "尼泊尔语 (尼泊尔)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "荷兰语 (比利时)",
-                    "target": "荷兰语 (比利时)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "荷兰语 (荷兰)",
-                    "target": "荷兰语 (荷兰)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "波兰语 (波兰)",
-                    "target": "波兰语 (波兰)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "普什图语 (阿富汗)",
-                    "target": "普什图语 (阿富汗)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "葡萄牙语 (巴西)",
-                    "target": "葡萄牙语 (巴西)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "葡萄牙语 (葡萄牙)",
-                    "target": "葡萄牙语 (葡萄牙)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "罗马尼亚语 (罗马尼亚)",
-                    "target": "罗马尼亚语 (罗马尼亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "俄语 (俄罗斯)",
-                    "target": "俄语 (俄罗斯)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "僧伽罗语 (斯里兰卡)",
-                    "target": "僧伽罗语 (斯里兰卡)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "斯洛伐克语 (斯洛伐克)",
-                    "target": "斯洛伐克语 (斯洛伐克)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "斯洛文尼亚语 (斯洛文尼亚)",
-                    "target": "斯洛文尼亚语 (斯洛文尼亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "索马里语 (索马里)",
-                    "target": "索马里语 (索马里)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "阿尔巴尼亚语 (阿尔巴尼亚)",
-                    "target": "阿尔巴尼亚语 (阿尔巴尼亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "塞尔维亚语 (拉丁语，塞尔维亚共和国)",
-                    "target": "塞尔维亚语 (拉丁语，塞尔维亚共和国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "塞尔维亚语 (西里尔文，塞尔维亚)",
-                    "target": "塞尔维亚语 (西里尔文，塞尔维亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "巽他语 (印度尼西亚)",
-                    "target": "巽他语 (印度尼西亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "瑞典语 (瑞典)",
-                    "target": "瑞典语 (瑞典)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "斯瓦希里语 (肯尼亚)",
-                    "target": "斯瓦希里语 (肯尼亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "斯瓦希里语 (坦桑尼亚)",
-                    "target": "斯瓦希里语 (坦桑尼亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "泰米尔语 (印度)",
-                    "target": "泰米尔语 (印度)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "泰米尔语 (斯里兰卡)",
-                    "target": "泰米尔语 (斯里兰卡)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "泰米尔语 (马来西亚)",
-                    "target": "泰米尔语 (马来西亚)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "泰米尔语 (新加坡)",
-                    "target": "泰米尔语 (新加坡)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "泰卢固语 (印度)",
-                    "target": "泰卢固语 (印度)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "泰语 (泰国)",
-                    "target": "泰语 (泰国)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "土耳其语 (Türkiye)",
-                    "target": "土耳其语 (Türkiye)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "乌克兰语 (乌克兰)",
-                    "target": "乌克兰语 (乌克兰)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "乌尔都语 (印度)",
-                    "target": "乌尔都语 (印度)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "乌尔都语 (巴基斯坦)",
-                    "target": "乌尔都语 (巴基斯坦)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "乌兹别克语 (拉丁语，乌兹别克斯坦)",
-                    "target": "乌兹别克语 (拉丁语，乌兹别克斯坦)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "越南语 (越南)",
-                    "target": "越南语 (越南)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "中文 (吴语，简体)",
-                    "target": "中文 (吴语，简体)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "中文 (粤语，简体)",
-                    "target": "中文 (粤语，简体)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "中文 (普通话，简体)",
-                    "target": "中文 (普通话，简体)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "中文 (广西口音普通话，简体)",
-                    "target": "中文 (广西口音普通话，简体)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "中文 (中原官话河南，简体)",
-                    "target": "中文 (中原官话河南，简体)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "中文 (东北官话，简体)",
-                    "target": "中文 (东北官话，简体)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "中文 (中原官话陕西，简体)",
-                    "target": "中文 (中原官话陕西，简体)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "中文 (冀鲁官话，简体)",
-                    "target": "中文 (冀鲁官话，简体)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "中文 (西南普通话，简体)",
-                    "target": "中文 (西南普通话，简体)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "中文 (粤语，繁体)",
-                    "target": "中文 (粤语，繁体)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "中文 (台湾普通话，繁体)",
-                    "target": "中文 (台湾普通话，繁体)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "祖鲁语 (南非)",
-                    "target": "祖鲁语 (南非)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Speech key",
-                    "target": "语音密钥"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Speech region",
-                    "target": "语音区域"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Language type",
-                    "target": "语言类型"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Voice type",
-                    "target": "声音类型"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Audio format",
-                    "target": "音频格式"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Auto pause",
-                    "target": "自动暂停"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Auto stop",
-                    "target": "自动停止"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Read before or after",
-                    "target": "前后阅读"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Speaking style",
-                    "target": "说话风格"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Speaking role",
-                    "target": "说话角色"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Play speed",
-                    "target": "播放速度"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Enable developer mode",
-                    "target": "启用开发者模式"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Text formatting",
-                    "target": "文本格式化"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Convert text to audio",
-                    "target": "将文本转换为音频"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Convert text to speech",
-                    "target": "将文本转换为语音"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Pause or resume the audio",
-                    "target": "暂停或继续音频"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Stop conversion",
-                    "target": "停止转换"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Convert text to speech and save it",
-                    "target": "将文本转换为语音并保存"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "placeholder",
-                    "source": "Enter your secret key",
-                    "target": "请输入您的密钥"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "placeholder",
-                    "source": "Enter your region",
-                    "target": "请输入您的地区"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "placeholder",
-                    "source": "Full path",
-                    "target": "完整路径"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "placeholder",
-                    "source": "Fill in the regular expression. For example: /[^\\w\\s]/g",
-                    "target": "填写正则表达式。例如：/[^\\w\\s]/g"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Basic Settings",
-                    "target": "基本设置"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Voice Settings",
-                    "target": "语音设置"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Developer Settings",
-                    "target": "开发者设置"
-                }
-            ],
-            "regex": []
+  "schemaVersion": 1,
+  "metadata": {
+    "plugin": "text2audio",
+    "version": "1.0.0",
+    "title": "Text2Audio",
+    "description": "Text2Audio Localization & Tweaks",
+    "language": "zh-cn",
+    "supportedVersions": "4.1.0",
+    "author": ""
+  },
+  "dict": {
+    "main.js": {
+      "ast": [
+        {
+          "type": "CallExpression",
+          "name": "log",
+          "source": "buffer filled, pausing addition of binaries until space is made",
+          "target": "缓冲区已满，暂停添加二进制数据，直到腾出空间"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setTitle",
+          "source": "Read the selected text",
+          "target": "朗读所选文本"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "Play back is not supported for raw PCM, mulaw or alaw format without header.",
+          "target": "无头的原始 PCM、mulaw 或 alaw 格式不支持播放。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "Your Azure AI services API's secret key.",
+          "target": "您的 Azure AI 服务 API 密钥。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "Your Azure AI services API's region.",
+          "target": "您的 Azure AI 服务 API 区域。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "Save the audio file to this directory.",
+          "target": "将音频文件保存到此目录。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "Select plugin language.",
+          "target": "选择插件语言。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "The language type of the speech.",
+          "target": "语音的语言类型。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "The voice type of the speech.",
+          "target": "语音的声音类型。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "The audio format of the speech.",
+          "target": "语音的音频格式。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "Whether to insert the generated speech at the location of the cursor?",
+          "target": "是否在光标位置插入生成的语音？"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "Whether to stop playing when closing or opening a note?",
+          "target": "关闭或打开笔记时是否停止播放？"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "Whether to terminate speech conversion when closing or opening a note?",
+          "target": "关闭或打开笔记时是否终止语音转换？"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "Read content before or after the cursor.",
+          "target": "读取光标前或后的内容。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "The voice-specific speaking style.",
+          "target": "语音专属的说话风格。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "The speaking role-play.",
+          "target": "说话角色扮演。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "The intensity of the speaking style.",
+          "target": "说话风格的强度。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "Set the audio playback speed.",
+          "target": "设置音频播放速度。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "Indicates the volume level of the speaking voice.",
+          "target": "指示语音音量级别。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "If you turn off developer mode, the configuration in this mode will become invalid.",
+          "target": "如果关闭开发者模式，此模式下的配置将失效。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "desc",
+          "source": "The rule for filtering characters that do not need to be converted to speech.",
+          "target": "用于过滤无需转换为语音的字符的规则。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "南非荷兰语 (南非)",
+          "target": "南非荷兰语 (南非)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿姆哈拉语 (埃塞俄比亚)",
+          "target": "阿姆哈拉语 (埃塞俄比亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (阿拉伯联合酋长国)",
+          "target": "阿拉伯语 (阿拉伯联合酋长国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (巴林)",
+          "target": "阿拉伯语 (巴林)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (阿尔及利亚)",
+          "target": "阿拉伯语 (阿尔及利亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (埃及)",
+          "target": "阿拉伯语 (埃及)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (伊拉克)",
+          "target": "阿拉伯语 (伊拉克)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (约旦)",
+          "target": "阿拉伯语 (约旦)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (科威特)",
+          "target": "阿拉伯语 (科威特)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (黎巴嫩)",
+          "target": "阿拉伯语 (黎巴嫩)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (利比亚)",
+          "target": "阿拉伯语 (利比亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (摩洛哥)",
+          "target": "阿拉伯语 (摩洛哥)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (阿曼)",
+          "target": "阿拉伯语 (阿曼)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (卡塔尔)",
+          "target": "阿拉伯语 (卡塔尔)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (沙特阿拉伯)",
+          "target": "阿拉伯语 (沙特阿拉伯)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (叙利亚)",
+          "target": "阿拉伯语 (叙利亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (突尼斯)",
+          "target": "阿拉伯语 (突尼斯)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿拉伯语 (也门)",
+          "target": "阿拉伯语 (也门)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿塞拜疆语 (拉丁语，阿塞拜疆)",
+          "target": "阿塞拜疆语 (拉丁语，阿塞拜疆)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "保加利亚语 (保加利亚)",
+          "target": "保加利亚语 (保加利亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "孟加拉语 (孟加拉国)",
+          "target": "孟加拉语 (孟加拉国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "孟加拉语 (印度)",
+          "target": "孟加拉语 (印度)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "波斯尼亚语 (波斯尼亚和黑塞哥维那)",
+          "target": "波斯尼亚语 (波斯尼亚和黑塞哥维那)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "加泰罗尼亚语",
+          "target": "加泰罗尼亚语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "捷克语 (捷克)",
+          "target": "捷克语 (捷克)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "威尔士语 (英国)",
+          "target": "威尔士语 (英国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "丹麦语 (丹麦)",
+          "target": "丹麦语 (丹麦)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "德语 (奥地利)",
+          "target": "德语 (奥地利)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "德语 (瑞士)",
+          "target": "德语 (瑞士)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "德语 (德国)",
+          "target": "德语 (德国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "希腊语 (希腊)",
+          "target": "希腊语 (希腊)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (澳大利亚)",
+          "target": "英语 (澳大利亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (加拿大)",
+          "target": "英语 (加拿大)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (英国)",
+          "target": "英语 (英国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (香港特別行政区)",
+          "target": "英语 (香港特别行政区)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (爱尔兰)",
+          "target": "英语 (爱尔兰)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (印度)",
+          "target": "英语 (印度)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (肯尼亚)",
+          "target": "英语 (肯尼亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (尼日利亚)",
+          "target": "英语 (尼日利亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (新西兰)",
+          "target": "英语 (新西兰)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (菲律宾)",
+          "target": "英语 (菲律宾)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (新加坡)",
+          "target": "英语 (新加坡)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (坦桑尼亚)",
+          "target": "英语 (坦桑尼亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (美国)",
+          "target": "英语 (美国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "英语 (南非)",
+          "target": "英语 (南非)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (阿根廷)",
+          "target": "西班牙语 (阿根廷)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (玻利维亚)",
+          "target": "西班牙语 (玻利维亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (智利)",
+          "target": "西班牙语 (智利)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (哥伦比亚)",
+          "target": "西班牙语 (哥伦比亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (哥斯达黎加)",
+          "target": "西班牙语 (哥斯达黎加)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (古巴)",
+          "target": "西班牙语 (古巴)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (多米尼加共和国)",
+          "target": "西班牙语 (多米尼加共和国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (厄瓜多尔)",
+          "target": "西班牙语 (厄瓜多尔)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (西班牙)",
+          "target": "西班牙语 (西班牙)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (赤道几内亚)",
+          "target": "西班牙语 (赤道几内亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (危地马拉)",
+          "target": "西班牙语 (危地马拉)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (洪都拉斯)",
+          "target": "西班牙语 (洪都拉斯)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (墨西哥)",
+          "target": "西班牙语 (墨西哥)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙 (尼加拉瓜)",
+          "target": "西班牙 (尼加拉瓜)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (巴拿马)",
+          "target": "西班牙语 (巴拿马)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (秘鲁)",
+          "target": "西班牙语 (秘鲁)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (波多黎各)",
+          "target": "西班牙语 (波多黎各)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (巴拉圭)",
+          "target": "西班牙语 (巴拉圭)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (萨尔瓦多)",
+          "target": "西班牙语 (萨尔瓦多)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (美国)",
+          "target": "西班牙语 (美国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (乌拉圭)",
+          "target": "西班牙语 (乌拉圭)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "西班牙语 (委内瑞拉)",
+          "target": "西班牙语 (委内瑞拉)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "爱沙尼亚语 (爱沙尼亚)",
+          "target": "爱沙尼亚语 (爱沙尼亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "巴斯克语",
+          "target": "巴斯克语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "波斯语 (伊朗)",
+          "target": "波斯语 (伊朗)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "芬兰语 (芬兰)",
+          "target": "芬兰语 (芬兰)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "菲律宾语 (菲律宾)",
+          "target": "菲律宾语 (菲律宾)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "法语 (比利时)",
+          "target": "法语 (比利时)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "法语 (加拿大)",
+          "target": "法语 (加拿大)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "法语 (瑞士)",
+          "target": "法语 (瑞士)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "法语 (法国)",
+          "target": "法语 (法国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "爱尔兰语 (爱尔兰)",
+          "target": "爱尔兰语 (爱尔兰)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "加利西亚语",
+          "target": "加利西亚语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "古吉拉特语 (印度)",
+          "target": "古吉拉特语 (印度)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "希伯来语 (以色列)",
+          "target": "希伯来语 (以色列)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "印地语 (印度)",
+          "target": "印地语 (印度)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "克罗地亚语 (克罗地亚)",
+          "target": "克罗地亚语 (克罗地亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "匈牙利语 (匈牙利)",
+          "target": "匈牙利语 (匈牙利)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "亚美尼亚语 (亚美尼亚)",
+          "target": "亚美尼亚语 (亚美尼亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "印度尼西亚语 (印度尼西亚)",
+          "target": "印度尼西亚语 (印度尼西亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "冰岛语 (冰岛)",
+          "target": "冰岛语 (冰岛)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "意大利语 (意大利)",
+          "target": "意大利语 (意大利)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "日语 (日本)",
+          "target": "日语 (日本)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "爪哇语 (拉丁语、印度尼西亚)",
+          "target": "爪哇语 (拉丁语、印度尼西亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "格鲁吉亚语 (格鲁吉亚)",
+          "target": "格鲁吉亚语 (格鲁吉亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "哈萨克语 (哈萨克斯坦)",
+          "target": "哈萨克语 (哈萨克斯坦)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "高棉语 (柬埔寨)",
+          "target": "高棉语 (柬埔寨)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "卡纳达语 (印度)",
+          "target": "卡纳达语 (印度)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "韩语 (韩国)",
+          "target": "韩语 (韩国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "老挝语 (老挝)",
+          "target": "老挝语 (老挝)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "立陶宛语 (立陶宛)",
+          "target": "立陶宛语 (立陶宛)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "拉脱维亚语 (拉脱维亚)",
+          "target": "拉脱维亚语 (拉脱维亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "马其顿语 (北马其顿)",
+          "target": "马其顿语 (北马其顿)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "马拉雅拉姆语 (印度)",
+          "target": "马拉雅拉姆语 (印度)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "蒙古语 (蒙古)",
+          "target": "蒙古语 (蒙古)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "马拉地语 (印度)",
+          "target": "马拉地语 (印度)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "马来语 (马来西亚)",
+          "target": "马来语 (马来西亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "马耳他语 (马耳他)",
+          "target": "马耳他语 (马耳他)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "缅甸语 (缅甸)",
+          "target": "缅甸语 (缅甸)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "书面挪威语 (挪威)",
+          "target": "书面挪威语 (挪威)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "尼泊尔语 (尼泊尔)",
+          "target": "尼泊尔语 (尼泊尔)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "荷兰语 (比利时)",
+          "target": "荷兰语 (比利时)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "荷兰语 (荷兰)",
+          "target": "荷兰语 (荷兰)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "波兰语 (波兰)",
+          "target": "波兰语 (波兰)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "普什图语 (阿富汗)",
+          "target": "普什图语 (阿富汗)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "葡萄牙语 (巴西)",
+          "target": "葡萄牙语 (巴西)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "葡萄牙语 (葡萄牙)",
+          "target": "葡萄牙语 (葡萄牙)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "罗马尼亚语 (罗马尼亚)",
+          "target": "罗马尼亚语 (罗马尼亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "俄语 (俄罗斯)",
+          "target": "俄语 (俄罗斯)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "僧伽罗语 (斯里兰卡)",
+          "target": "僧伽罗语 (斯里兰卡)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "斯洛伐克语 (斯洛伐克)",
+          "target": "斯洛伐克语 (斯洛伐克)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "斯洛文尼亚语 (斯洛文尼亚)",
+          "target": "斯洛文尼亚语 (斯洛文尼亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "索马里语 (索马里)",
+          "target": "索马里语 (索马里)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "阿尔巴尼亚语 (阿尔巴尼亚)",
+          "target": "阿尔巴尼亚语 (阿尔巴尼亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "塞尔维亚语 (拉丁语，塞尔维亚共和国)",
+          "target": "塞尔维亚语 (拉丁语，塞尔维亚共和国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "塞尔维亚语 (西里尔文，塞尔维亚)",
+          "target": "塞尔维亚语 (西里尔文，塞尔维亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "巽他语 (印度尼西亚)",
+          "target": "巽他语 (印度尼西亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "瑞典语 (瑞典)",
+          "target": "瑞典语 (瑞典)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "斯瓦希里语 (肯尼亚)",
+          "target": "斯瓦希里语 (肯尼亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "斯瓦希里语 (坦桑尼亚)",
+          "target": "斯瓦希里语 (坦桑尼亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "泰米尔语 (印度)",
+          "target": "泰米尔语 (印度)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "泰米尔语 (斯里兰卡)",
+          "target": "泰米尔语 (斯里兰卡)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "泰米尔语 (马来西亚)",
+          "target": "泰米尔语 (马来西亚)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "泰米尔语 (新加坡)",
+          "target": "泰米尔语 (新加坡)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "泰卢固语 (印度)",
+          "target": "泰卢固语 (印度)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "泰语 (泰国)",
+          "target": "泰语 (泰国)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "土耳其语 (Türkiye)",
+          "target": "土耳其语 (Türkiye)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "乌克兰语 (乌克兰)",
+          "target": "乌克兰语 (乌克兰)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "乌尔都语 (印度)",
+          "target": "乌尔都语 (印度)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "乌尔都语 (巴基斯坦)",
+          "target": "乌尔都语 (巴基斯坦)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "乌兹别克语 (拉丁语，乌兹别克斯坦)",
+          "target": "乌兹别克语 (拉丁语，乌兹别克斯坦)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "越南语 (越南)",
+          "target": "越南语 (越南)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "中文 (吴语，简体)",
+          "target": "中文 (吴语，简体)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "中文 (粤语，简体)",
+          "target": "中文 (粤语，简体)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "中文 (普通话，简体)",
+          "target": "中文 (普通话，简体)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "中文 (广西口音普通话，简体)",
+          "target": "中文 (广西口音普通话，简体)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "中文 (中原官话河南，简体)",
+          "target": "中文 (中原官话河南，简体)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "中文 (东北官话，简体)",
+          "target": "中文 (东北官话，简体)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "中文 (中原官话陕西，简体)",
+          "target": "中文 (中原官话陕西，简体)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "中文 (冀鲁官话，简体)",
+          "target": "中文 (冀鲁官话，简体)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "中文 (西南普通话，简体)",
+          "target": "中文 (西南普通话，简体)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "中文 (粤语，繁体)",
+          "target": "中文 (粤语，繁体)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "中文 (台湾普通话，繁体)",
+          "target": "中文 (中国台湾省，繁体)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "祖鲁语 (南非)",
+          "target": "祖鲁语 (南非)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Speech key",
+          "target": "语音密钥"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Speech region",
+          "target": "语音区域"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Language type",
+          "target": "语言类型"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Voice type",
+          "target": "声音类型"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Audio format",
+          "target": "音频格式"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Auto pause",
+          "target": "自动暂停"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Auto stop",
+          "target": "自动停止"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Read before or after",
+          "target": "前后阅读"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Speaking style",
+          "target": "说话风格"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Speaking role",
+          "target": "说话角色"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Play speed",
+          "target": "播放速度"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Enable developer mode",
+          "target": "启用开发者模式"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Text formatting",
+          "target": "文本格式化"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Convert text to audio",
+          "target": "将文本转换为音频"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Convert text to speech",
+          "target": "将文本转换为语音"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Pause or resume the audio",
+          "target": "暂停或继续音频"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Stop conversion",
+          "target": "停止转换"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Convert text to speech and save it",
+          "target": "将文本转换为语音并保存"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "placeholder",
+          "source": "Enter your secret key",
+          "target": "请输入您的密钥"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "placeholder",
+          "source": "Enter your region",
+          "target": "请输入您的地区"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "placeholder",
+          "source": "Full path",
+          "target": "完整路径"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "placeholder",
+          "source": "Fill in the regular expression. For example: /[^\\w\\s]/g",
+          "target": "填写正则表达式。例如：/[^\\w\\s]/g"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Basic Settings",
+          "target": "基本设置"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Voice Settings",
+          "target": "语音设置"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Developer Settings",
+          "target": "开发者设置"
         }
+      ],
+      "regex": []
     }
+  }
 }
