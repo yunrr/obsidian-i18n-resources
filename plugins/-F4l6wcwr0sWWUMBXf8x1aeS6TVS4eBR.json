@@ -1,1159 +1,1159 @@
 {
-    "schemaVersion": 1,
-    "metadata": {
-        "plugin": "ink",
-        "version": "1.0.0",
-        "title": "Ink",
-        "description": "Ink Localization & Tweaks",
-        "language": "zh-cn",
-        "supportedVersions": "0.3.4",
-        "author": ""
-    },
-    "dict": {
-        "main.js": {
-            "ast": [
-                {
-                    "type": "AssignmentExpression",
-                    "name": "innerHTML",
-                    "source": "<svg />",
-                    "target": "<svg />"
-                },
-                {
-                    "type": "AssignmentExpression",
-                    "name": "textContent",
-                    "source": "Ink drawing file not found.",
-                    "target": "未找到墨迹绘图文件。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "alert",
-                    "source": "Oops! We could not save changes to your browser's storage. We now need to reload the page and try again.\n\nKeep seeing this message?\n\\u2022 If you're using tldraw in a private or \"incognito\" window, try loading tldraw in a regular window or in a different browser.\n\\u2022 If your hard disk is full, try clearing up some space and then reload the page.",
-                    "target": "糟糕！我们无法将更改保存到浏览器存储。现在需要重新加载页面再试一次。\n\n一直看到此消息？\n\\u2022 如果你在私密或“无痕”窗口中使用 tldraw，请尝试在普通窗口或其他浏览器中打开 tldraw。\n\\u2022 如果硬盘已满，请清理一些空间后重新加载页面。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "alert",
-                    "source": "Oops! We could not access your browser's storage\\u2014and the app won't work correctly without that. We now need to reload the page and try again.\n\nKeep seeing this message?\n\\u2022 If you're using tldraw in a private or \"incognito\" window, try loading tldraw in a regular window or in a different browser.",
-                    "target": "糟糕！我们无法访问你的浏览器存储\\u2014没有它应用将无法正常运行。现在需要重新加载页面再试一次。\n\n一直看到此消息？\n\\u2022 如果你在私密或“无痕”窗口中使用 tldraw，请尝试在普通窗口或其他浏览器中打开 tldraw。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "createDiv",
-                    "source": "ddc_ink_section ddc_ink_setup-guide-section",
-                    "target": "ddc_ink_section ddc_ink_setup-guide-section"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "createDiv",
-                    "source": "ddc_ink_section ddc_ink_controls-section",
-                    "target": "ddc_ink_section ddc_ink_controls-section"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "createDiv",
-                    "source": "ddc_ink_section ddc_ink_prerelease-warning-section",
-                    "target": "ddc_ink_section ddc_ink_prerelease-warning-section"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "error",
-                    "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
-                    "target": "forceFrameRate 需要 0 到 125 之间的正整数，不支持强制高于 125 fps 的帧率"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "error",
-                    "source": "cannot include non-js data in a record",
-                    "target": "记录中不能包含非 js 数据"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "error",
-                    "source": "Error migrating record",
-                    "target": "迁移记录时出错"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "error",
-                    "source": "Error migrating store",
-                    "target": "迁移存储时出错"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "error",
-                    "source": "Could not find mark to squash to: ",
-                    "target": "找不到要压缩到的标记："
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "error",
-                    "source": "Tried to set the current page id to a page that doesn't exist.",
-                    "target": "尝试将当前页面 ID 设置为不存在的页面。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "error",
-                    "source": "sessionStateSnapshot and instanceId must be provided together",
-                    "target": "必须同时提供 sessionStateSnapshot 和 instanceId"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "error",
-                    "source": "failed to migrate store",
-                    "target": "迁移存储失败"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "error",
-                    "source": "failed to store changes in indexed db",
-                    "target": "在 indexed db 中保存更改失败"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "error",
-                    "source": "in not contained inside",
-                    "target": "in 未包含在内部"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "error",
-                    "source": "aria-hidden: cannot operate on ",
-                    "target": "aria-hidden：无法操作 "
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "log",
-                    "source": "You should check that this works in production separately.",
-                    "target": "你应该另外检查它在生产环境中是否正常工作。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "log",
-                    "source": "color: white; background: crimson; padding: 2px; border-radius: 3px;",
-                    "target": "color: white; background: crimson; padding: 2px; border-radius: 3px;"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "prompt",
-                    "source": "Rename page",
-                    "target": "重命名页面"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setButtonText",
-                    "source": "Reset settings",
-                    "target": "重置设置"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setButtonText",
-                    "source": "Rewatch welcome tips",
-                    "target": "重新观看欢迎提示"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setButtonText",
-                    "source": "Obsidian attachment folder",
-                    "target": "Obsidian 附件文件夹"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setButtonText",
-                    "source": "Vault root",
-                    "target": "知识库根目录"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setButtonText",
-                    "source": "Next to the note",
-                    "target": "与笔记放在一起"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setButtonText",
-                    "source": "Reference existing file",
-                    "target": "引用现有文件"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setButtonText",
-                    "source": "Make duplicate",
-                    "target": "创建副本"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setDesc",
-                    "source": "For a more intuitive experience, turn on \"Slash commands\" in \"Obsidian Settings\" / \"Core Plugins\" or install and set up the community plugin \"Slash Commander\".",
-                    "target": "为获得更直观的体验，请在“Obsidian 设置”/“核心插件”中开启“斜杠命令”，或安装并设置社区插件“Slash Commander”。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setDesc",
-                    "source": "If using an iPad, the Apple pencil \"Scribble\" setting can interfere with input in Ink sections. Disable it in iPadOS settings for a better experience.",
-                    "target": "如果使用 iPad，Apple Pencil 的“随手写”设置可能会干扰 Ink 区域的输入。请在 iPadOS 设置中将其关闭以获得更好的体验。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setDesc",
-                    "source": "If using \"Obsidian Sync\", turn on \"Sync all other types\" in the Obsidian sync settings.",
-                    "target": "如果使用“Obsidian Sync”，请在 Obsidian 同步设置中开启“同步所有其他类型”。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Slash Commands",
-                    "target": "斜杠命令"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Pen Scribble",
-                    "target": "手写涂鸦"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Obsidian Sync",
-                    "target": "Obsidian Sync"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Enable writing",
-                    "target": "启用书写"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Enable drawing",
-                    "target": "启用绘图"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Customise file organisation",
-                    "target": "自定义文件组织"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Where should Ink files be saved when created in a note?",
-                    "target": "在笔记中创建时，Ink 文件应保存在哪里？"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Writing files subfolder",
-                    "target": "书写文件子文件夹"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Drawing files subfolder",
-                    "target": "绘图文件子文件夹"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Show frame around drawing when not editing",
-                    "target": "未编辑时显示绘图边框"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Show background when not editing",
-                    "target": "未编辑时显示背景"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Show ruled lines when not editing",
-                    "target": "未编辑时显示横线"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setName",
-                    "source": "Writing stroke limit",
-                    "target": "书写笔画限制"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Like Ink?",
-                    "target": "喜欢 Ink 吗？"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Welcome to Ink",
-                    "target": "欢迎使用 Ink"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Ink is all about enabling stylus use directly in your markdown notes.",
-                    "target": "Ink 旨在让你在 Markdown 笔记中直接使用触控笔。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Here's a quick rundown to help you get started...",
-                    "target": "这里有个快速说明，帮助你入门..."
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Inserting handwriting sections...",
-                    "target": "插入手写部分..."
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "In any markdown note, run the following command to begin writing where your cursor is.",
-                    "target": "在任意 Markdown 笔记中，运行以下命令即可在光标位置开始书写。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "\"Ink: New handwriting section\"",
-                    "target": "\"Ink：新建手写分区\""
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "( Cmd+P or swipe down )",
-                    "target": "( Cmd+P 或向下滑动 )"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Drawing sections...",
-                    "target": "绘图分区..."
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "These can be added too and can be resized right in your markdown file.",
-                    "target": "这些也可以添加，并且可以直接在你的 Markdown 文件中调整大小。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "\"Ink: New drawing\"",
-                    "target": "\"Ink：新建绘图\""
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "If you're using an iPad...",
-                    "target": "如果你正在使用 iPad..."
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "To use Ink you will need to turn off Scribble in your device settings.",
-                    "target": "要使用 Ink，你需要在设备设置中关闭 Scribble。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Syncing with your vault...",
-                    "target": "正在与你的保险库同步..."
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Ink files live in your vault and can sync with it to other devices.",
-                    "target": "Ink 文件存放在你的保险库中，并可随其同步到其他设备。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "If using Obsidian Sync, turn on \"Sync all other types\" in the Obsidian Sync settings.",
-                    "target": "如果使用 Obsidian Sync，请在 Obsidian Sync 设置中开启“同步所有其他类型”。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Get involved...",
-                    "target": "参与进来..."
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "You can also follow along with development and let me know which features are important to you at the links below.",
-                    "target": "你也可以关注开发进展，并在下方链接告诉我哪些功能对你很重要。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "View development diaries",
-                    "target": "查看开发日志"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Follow on socials",
-                    "target": "关注社交媒体"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Hand write or draw directly between paragraphs in your notes.",
-                    "target": "在笔记段落之间直接手写或绘图。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Lines disappearing?",
-                    "target": "线条消失了？"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "You may have noticed that your handwriting lines have started disapearing...",
-                    "target": "你可能已经注意到你的手写线条开始消失了..."
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "To help keep writing smooth...",
-                    "target": "为帮助保持书写流畅..."
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Hiding old strokes helps keep pen latency down and the writing experience smooth.",
-                    "target": "隐藏旧笔画有助于降低笔延迟，让书写体验更顺滑。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Never fear though, all your strokes still exist and will become visible again later.",
-                    "target": "不过别担心，你的所有笔画仍然存在，之后会再次显示。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "You can adjust the stroke limit in the settings.",
-                    "target": "你可以在设置中调整笔画限制。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Changes in Ink v0.3.4",
-                    "target": "Ink v0.3.4 的更新内容"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Fixed update notice text colour in light mode (That's why you can read this!).",
-                    "target": "修复了浅色模式下更新通知文本颜色（这就是你能读到这段文字的原因！）。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Moved Undo/Redo buttons to prevent accidental back button taps.",
-                    "target": "移动了撤销/重做按钮，以防误触返回按钮。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Added new command icons.",
-                    "target": "新增了命令图标。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "Added extra blank lines while writing.",
-                    "target": "写作时新增了额外空行。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setText",
-                    "source": "View release video",
-                    "target": "查看发布视频"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setTooltip",
-                    "source": "X (Twitter)",
-                    "target": "X（Twitter）"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "setTooltip",
-                    "source": "Support developer",
-                    "target": "支持开发者"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "preventDefault called on event:",
-                    "target": "事件中调用了 preventDefault："
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "Release without capture",
-                    "target": "未捕获就释放"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "Invalid instance state",
-                    "target": "无效的实例状态"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "No version in instance state",
-                    "target": "实例状态中没有版本"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "User not found",
-                    "target": "未找到用户"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "You should set the userId for the current instance before following a user",
-                    "target": "在关注用户之前应为当前实例设置 userId"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "No main translations found.",
-                    "target": "未找到主要翻译。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "setSelf function cannot be used with read-only atom",
-                    "target": "setSelf 函数不能用于只读 atom"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "setSelf function cannot be called in sync",
-                    "target": "setSelf 函数不能在同步中调用"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "Detected multiple Jotai instances. It may cause unexpected behavior with the default store. https://github.com/pmndrs/jotai/discussions/2044",
-                    "target": "检测到多个 Jotai 实例。这可能会导致默认 store 出现意外行为。https://github.com/pmndrs/jotai/discussions/2044"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "There was an error accessing the note's folder. Placing the new file in the vault's root instead.",
-                    "target": "访问笔记文件夹时出错。将改为把新文件放在 vault 根目录中。"
-                },
-                {
-                    "type": "CallExpression",
-                    "name": "warn",
-                    "source": "The `pre` method always must return a valid DomNode (instanceof Node) - your modification will be ignored (Hint: if you want to render a React-component, use the `post` method instead)",
-                    "target": "`pre` 方法必须始终返回有效的 DomNode（instanceof Node）— 你的修改将被忽略（提示：如果你想渲染 React 组件，请改用 `post` 方法）"
-                },
-                {
-                    "type": "NewExpression",
-                    "name": "Notice",
-                    "source": "There was an error finding a non-conflicting filename.",
-                    "target": "查找无冲突文件名时出错。"
-                },
-                {
-                    "type": "NewExpression",
-                    "name": "Notice",
-                    "source": "No file found to copy",
-                    "target": "未找到可复制的文件"
-                },
-                {
-                    "type": "NewExpression",
-                    "name": "Notice",
-                    "source": "Drawing file copied.\nRun 'Copied Drawing' where desired in a note.",
-                    "target": "绘图文件已复制。\n在笔记中需要的位置运行“Copied Drawing”。"
-                },
-                {
-                    "type": "NewExpression",
-                    "name": "Notice",
-                    "source": "Writing file copied.\nRun 'Copied Writing Section' where desired in a note.",
-                    "target": "书写文件已复制。\n在笔记中需要的位置运行“Copied Writing Section”。"
-                },
-                {
-                    "type": "NewExpression",
-                    "name": "Notice",
-                    "source": "Cannot insert.\nCopied drawing file no longer exists.",
-                    "target": "无法插入。\n已复制的绘图文件不再存在。"
-                },
-                {
-                    "type": "NewExpression",
-                    "name": "Notice",
-                    "source": "Drawing file duplicated",
-                    "target": "绘图文件已复制副本"
-                },
-                {
-                    "type": "NewExpression",
-                    "name": "Notice",
-                    "source": "Insert cancelled.",
-                    "target": "插入已取消。"
-                },
-                {
-                    "type": "NewExpression",
-                    "name": "Notice",
-                    "source": "Cannot insert.\nCopied writing file no longer exists.",
-                    "target": "无法插入。\n已复制的书写文件不再存在。"
-                },
-                {
-                    "type": "NewExpression",
-                    "name": "Notice",
-                    "source": "Writing file duplicated",
-                    "target": "书写文件已复制副本"
-                },
-                {
-                    "type": "NewExpression",
-                    "name": "Notice",
-                    "source": "Ink plugin settings reset",
-                    "target": "Ink 插件设置已重置"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "top_left handle",
-                    "target": "左上控制点"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "top handle",
-                    "target": "上方控制点"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "top_right handle",
-                    "target": "右上控制点"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "right handle",
-                    "target": "右侧控制点"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "bottom_right handle",
-                    "target": "右下控制点"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "bottom handle",
-                    "target": "下方控制点"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "bottom_left handle",
-                    "target": "左下控制点"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "left handle",
-                    "target": "左侧控制点"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "top target",
-                    "target": "上方目标"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "right target",
-                    "target": "右侧目标"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "bottom target",
-                    "target": "底部目标"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "left target",
-                    "target": "左侧目标"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "top-left target",
-                    "target": "左上目标"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "top-right target",
-                    "target": "右上目标"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "bottom-right target",
-                    "target": "右下目标"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "bottom-left target",
-                    "target": "左下目标"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "style panel styles",
-                    "target": "样式面板样式"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "aria-label",
-                    "source": "style panel text",
-                    "target": "样式面板文字"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "description",
-                    "source": "Hand write or draw directly between paragraphs in your notes using a digital pen, stylus, or Apple pencil. Useful for handwriting, sketches, scribbles, or even math equations and scientific notation. Runs on the tldraw framework and drawing provides an infinite canvas.",
-                    "target": "使用数位笔、触控笔或 Apple Pencil 在笔记段落之间直接手写或绘图。适用于手写、草图、涂鸦，甚至数学方程和科学记号。基于 tldraw 框架运行，绘图提供无限画布。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "description",
-                    "source": "Hey, attend to this thing over here. It might be important!",
-                    "target": "嘿，注意这边的东西。它可能很重要！"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Bahasa Indonesia",
-                    "target": "印尼语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Català",
-                    "target": "加泰罗尼亚语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Čeština",
-                    "target": "捷克语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Español",
-                    "target": "西班牙语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Français",
-                    "target": "法语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Português - Brasil",
-                    "target": "葡萄牙语 - 巴西"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Português - Europeu",
-                    "target": "葡萄牙语 - 欧洲"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Română",
-                    "target": "罗马尼亚语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Slovenščina",
-                    "target": "斯洛文尼亚语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Tiếng Việt",
-                    "target": "越南语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Türkçe",
-                    "target": "土耳其语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "עברית",
-                    "target": "希伯来语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "عربي",
-                    "target": "阿拉伯语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "فارسی",
-                    "target": "波斯语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "کوردی",
-                    "target": "库尔德语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "नेपाली",
-                    "target": "尼泊尔语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "हिन्दी",
-                    "target": "印地语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "తెలుగు",
-                    "target": "泰卢固语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "ภาษาไทย",
-                    "target": "泰语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "မြန်မာစာ",
-                    "target": "缅甸语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "한국어",
-                    "target": "韩语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "日本語",
-                    "target": "日语"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "简体中文",
-                    "target": "简体中文"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "繁體中文 (台灣)",
-                    "target": "繁体中文（台湾）"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Go Back",
-                    "target": "返回"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Show dialog",
-                    "target": "显示对话框"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Create 100 shapes",
-                    "target": "创建 100 个形状"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Count shapes / nodes",
-                    "target": "统计形状/节点"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Throw error",
-                    "target": "抛出错误"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Hard reset",
-                    "target": "硬重置"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Debug Flags",
-                    "target": "调试标志"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "label",
-                    "source": "Feature Flags",
-                    "target": "功能标志"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "message",
-                    "source": "Revert to default settings for Ink plugin?",
-                    "target": "是否将 Ink 插件恢复为默认设置？"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Page 1",
-                    "target": "第 1 页"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "New User",
-                    "target": "新用户"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Handwritten Note",
-                    "target": "手写笔记"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "New handwriting section",
-                    "target": "新的手写部分"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Existing handwriting section",
-                    "target": "现有的手写部分"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Copied handwriting section",
-                    "target": "已复制的手写部分"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "New drawing",
-                    "target": "新建绘图"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Existing drawing",
-                    "target": "现有绘图"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "name",
-                    "source": "Copied drawing",
-                    "target": "复制的绘图"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "Expand setup tips",
-                    "target": "展开设置提示"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "For information on this plugin's development, visit the links below. Feel free to leave comments in the development diaries on YouTube.",
-                    "target": "有关此插件开发的信息，请访问以下链接。欢迎在 YouTube 的开发日志中留言。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "Latest Changes",
-                    "target": "最新更改"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "Development Diaries.",
-                    "target": "开发日志。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "Request feature / Report bug.",
-                    "target": "请求功能 / 报告错误。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "This plugin is in an Alpha state (Expand for details)",
-                    "target": "此插件处于 Alpha 状态（展开查看详情）"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "What does Alpha mean? Development of products like this plugin often involve moving through multiple different stages (e.g. Alpha, Beta, then Standard Release).",
-                    "target": "Alpha 是什么意思？像此插件这样的产品开发通常会经历多个不同阶段（例如 Alpha、Beta，然后是正式发布）。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "Alpha, the current stage, means that this plugin is in early development and may undergo large changes that break or change previous functionality.",
-                    "target": "Alpha（当前阶段）表示此插件处于早期开发阶段，可能会经历导致破坏或改变先前功能的重大变更。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "While in Alpha, please exercise caution while using the plugin, however, note that I (The developer of this plugin) am proceeding with caution to help ensure any files created in this version will be compatible or converted to work with future versions (My own vaults depend on it as well).",
-                    "target": "在 Alpha 阶段使用该插件时请谨慎。不过请注意，我（该插件的开发者）也在谨慎推进，以尽力确保此版本创建的任何文件在未来版本中仍可兼容或可被转换（这也关系到我自己的库）。"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "hsl(210, 17%, 98%)",
-                    "target": "hsl(210, 17%, 98%)"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "Copy writing",
-                    "target": "复制书写"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "Copy drawing",
-                    "target": "复制绘图"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "Open drawing",
-                    "target": "打开绘图"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "text",
-                    "source": "Grid on/off",
-                    "target": "网格 开/关"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Please confirm",
-                    "target": "请确认"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Google Maps",
-                    "target": "Google 地图"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Val Town",
-                    "target": "Val Town"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Google Calendar",
-                    "target": "Google 日历"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Google Slides",
-                    "target": "Google 幻灯片"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "GitHub Gist",
-                    "target": "GitHub Gist"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Changed Page",
-                    "target": "已更改的页面"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Something good happened",
-                    "target": "发生了好事"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Something happened",
-                    "target": "发生了某事"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Something maybe bad happened",
-                    "target": "可能发生了坏事"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Something bad happened",
-                    "target": "发生了坏事"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Debug menu",
-                    "target": "调试菜单"
-                },
-                {
-                    "type": "ObjectProperty",
-                    "name": "title",
-                    "source": "Maximum Shapes Reached",
-                    "target": "已达到最大形状数量"
-                }
-            ],
-            "regex": []
+  "schemaVersion": 1,
+  "metadata": {
+    "plugin": "ink",
+    "version": "1.0.0",
+    "title": "Ink",
+    "description": "Ink Localization & Tweaks",
+    "language": "zh-cn",
+    "supportedVersions": "0.3.4",
+    "author": ""
+  },
+  "dict": {
+    "main.js": {
+      "ast": [
+        {
+          "type": "AssignmentExpression",
+          "name": "innerHTML",
+          "source": "<svg />",
+          "target": "<svg />"
+        },
+        {
+          "type": "AssignmentExpression",
+          "name": "textContent",
+          "source": "Ink drawing file not found.",
+          "target": "未找到墨迹绘图文件。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "alert",
+          "source": "Oops! We could not save changes to your browser's storage. We now need to reload the page and try again.\n\nKeep seeing this message?\n\\u2022 If you're using tldraw in a private or \"incognito\" window, try loading tldraw in a regular window or in a different browser.\n\\u2022 If your hard disk is full, try clearing up some space and then reload the page.",
+          "target": "糟糕！我们无法将更改保存到浏览器存储。现在需要重新加载页面再试一次。\n\n一直看到此消息？\n\\u2022 如果你在私密或“无痕”窗口中使用 tldraw，请尝试在普通窗口或其他浏览器中打开 tldraw。\n\\u2022 如果硬盘已满，请清理一些空间后重新加载页面。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "alert",
+          "source": "Oops! We could not access your browser's storage\\u2014and the app won't work correctly without that. We now need to reload the page and try again.\n\nKeep seeing this message?\n\\u2022 If you're using tldraw in a private or \"incognito\" window, try loading tldraw in a regular window or in a different browser.",
+          "target": "糟糕！我们无法访问你的浏览器存储\\u2014没有它应用将无法正常运行。现在需要重新加载页面再试一次。\n\n一直看到此消息？\n\\u2022 如果你在私密或“无痕”窗口中使用 tldraw，请尝试在普通窗口或其他浏览器中打开 tldraw。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "createDiv",
+          "source": "ddc_ink_section ddc_ink_setup-guide-section",
+          "target": "ddc_ink_section ddc_ink_setup-guide-section"
+        },
+        {
+          "type": "CallExpression",
+          "name": "createDiv",
+          "source": "ddc_ink_section ddc_ink_controls-section",
+          "target": "ddc_ink_section ddc_ink_controls-section"
+        },
+        {
+          "type": "CallExpression",
+          "name": "createDiv",
+          "source": "ddc_ink_section ddc_ink_prerelease-warning-section",
+          "target": "ddc_ink_section ddc_ink_prerelease-warning-section"
+        },
+        {
+          "type": "CallExpression",
+          "name": "error",
+          "source": "forceFrameRate takes a positive int between 0 and 125, forcing frame rates higher than 125 fps is not supported",
+          "target": "forceFrameRate 需要 0 到 125 之间的正整数，不支持强制高于 125 fps 的帧率"
+        },
+        {
+          "type": "CallExpression",
+          "name": "error",
+          "source": "cannot include non-js data in a record",
+          "target": "记录中不能包含非 js 数据"
+        },
+        {
+          "type": "CallExpression",
+          "name": "error",
+          "source": "Error migrating record",
+          "target": "迁移记录时出错"
+        },
+        {
+          "type": "CallExpression",
+          "name": "error",
+          "source": "Error migrating store",
+          "target": "迁移存储时出错"
+        },
+        {
+          "type": "CallExpression",
+          "name": "error",
+          "source": "Could not find mark to squash to: ",
+          "target": "找不到要压缩到的标记："
+        },
+        {
+          "type": "CallExpression",
+          "name": "error",
+          "source": "Tried to set the current page id to a page that doesn't exist.",
+          "target": "尝试将当前页面 ID 设置为不存在的页面。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "error",
+          "source": "sessionStateSnapshot and instanceId must be provided together",
+          "target": "必须同时提供 sessionStateSnapshot 和 instanceId"
+        },
+        {
+          "type": "CallExpression",
+          "name": "error",
+          "source": "failed to migrate store",
+          "target": "迁移存储失败"
+        },
+        {
+          "type": "CallExpression",
+          "name": "error",
+          "source": "failed to store changes in indexed db",
+          "target": "在 indexed db 中保存更改失败"
+        },
+        {
+          "type": "CallExpression",
+          "name": "error",
+          "source": "in not contained inside",
+          "target": "in 未包含在内部"
+        },
+        {
+          "type": "CallExpression",
+          "name": "error",
+          "source": "aria-hidden: cannot operate on ",
+          "target": "aria-hidden：无法操作 "
+        },
+        {
+          "type": "CallExpression",
+          "name": "log",
+          "source": "You should check that this works in production separately.",
+          "target": "你应该另外检查它在生产环境中是否正常工作。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "log",
+          "source": "color: white; background: crimson; padding: 2px; border-radius: 3px;",
+          "target": "color: white; background: crimson; padding: 2px; border-radius: 3px;"
+        },
+        {
+          "type": "CallExpression",
+          "name": "prompt",
+          "source": "Rename page",
+          "target": "重命名页面"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setButtonText",
+          "source": "Reset settings",
+          "target": "重置设置"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setButtonText",
+          "source": "Rewatch welcome tips",
+          "target": "重新观看欢迎提示"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setButtonText",
+          "source": "Obsidian attachment folder",
+          "target": "Obsidian 附件文件夹"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setButtonText",
+          "source": "Vault root",
+          "target": "知识库根目录"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setButtonText",
+          "source": "Next to the note",
+          "target": "与笔记放在一起"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setButtonText",
+          "source": "Reference existing file",
+          "target": "引用现有文件"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setButtonText",
+          "source": "Make duplicate",
+          "target": "创建副本"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setDesc",
+          "source": "For a more intuitive experience, turn on \"Slash commands\" in \"Obsidian Settings\" / \"Core Plugins\" or install and set up the community plugin \"Slash Commander\".",
+          "target": "为获得更直观的体验，请在“Obsidian 设置”/“核心插件”中开启“斜杠命令”，或安装并设置社区插件“Slash Commander”。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setDesc",
+          "source": "If using an iPad, the Apple pencil \"Scribble\" setting can interfere with input in Ink sections. Disable it in iPadOS settings for a better experience.",
+          "target": "如果使用 iPad，Apple Pencil 的“随手写”设置可能会干扰 Ink 区域的输入。请在 iPadOS 设置中将其关闭以获得更好的体验。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setDesc",
+          "source": "If using \"Obsidian Sync\", turn on \"Sync all other types\" in the Obsidian sync settings.",
+          "target": "如果使用“Obsidian Sync”，请在 Obsidian 同步设置中开启“同步所有其他类型”。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Slash Commands",
+          "target": "斜杠命令"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Pen Scribble",
+          "target": "手写涂鸦"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Obsidian Sync",
+          "target": "Obsidian Sync"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Enable writing",
+          "target": "启用书写"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Enable drawing",
+          "target": "启用绘图"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Customise file organisation",
+          "target": "自定义文件组织"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Where should Ink files be saved when created in a note?",
+          "target": "在笔记中创建时，Ink 文件应保存在哪里？"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Writing files subfolder",
+          "target": "书写文件子文件夹"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Drawing files subfolder",
+          "target": "绘图文件子文件夹"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Show frame around drawing when not editing",
+          "target": "未编辑时显示绘图边框"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Show background when not editing",
+          "target": "未编辑时显示背景"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Show ruled lines when not editing",
+          "target": "未编辑时显示横线"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setName",
+          "source": "Writing stroke limit",
+          "target": "书写笔画限制"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Like Ink?",
+          "target": "喜欢 Ink 吗？"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Welcome to Ink",
+          "target": "欢迎使用 Ink"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Ink is all about enabling stylus use directly in your markdown notes.",
+          "target": "Ink 旨在让你在 Markdown 笔记中直接使用触控笔。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Here's a quick rundown to help you get started...",
+          "target": "这里有个快速说明，帮助你入门..."
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Inserting handwriting sections...",
+          "target": "插入手写部分..."
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "In any markdown note, run the following command to begin writing where your cursor is.",
+          "target": "在任意 Markdown 笔记中，运行以下命令即可在光标位置开始书写。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "\"Ink: New handwriting section\"",
+          "target": "\"Ink：新建手写分区\""
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "( Cmd+P or swipe down )",
+          "target": "( Cmd+P 或向下滑动 )"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Drawing sections...",
+          "target": "绘图分区..."
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "These can be added too and can be resized right in your markdown file.",
+          "target": "这些也可以添加，并且可以直接在你的 Markdown 文件中调整大小。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "\"Ink: New drawing\"",
+          "target": "\"Ink：新建绘图\""
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "If you're using an iPad...",
+          "target": "如果你正在使用 iPad..."
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "To use Ink you will need to turn off Scribble in your device settings.",
+          "target": "要使用 Ink，你需要在设备设置中关闭 Scribble。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Syncing with your vault...",
+          "target": "正在与你的保险库同步..."
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Ink files live in your vault and can sync with it to other devices.",
+          "target": "Ink 文件存放在你的保险库中，并可随其同步到其他设备。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "If using Obsidian Sync, turn on \"Sync all other types\" in the Obsidian Sync settings.",
+          "target": "如果使用 Obsidian Sync，请在 Obsidian Sync 设置中开启“同步所有其他类型”。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Get involved...",
+          "target": "参与进来..."
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "You can also follow along with development and let me know which features are important to you at the links below.",
+          "target": "你也可以关注开发进展，并在下方链接告诉我哪些功能对你很重要。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "View development diaries",
+          "target": "查看开发日志"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Follow on socials",
+          "target": "关注社交媒体"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Hand write or draw directly between paragraphs in your notes.",
+          "target": "在笔记段落之间直接手写或绘图。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Lines disappearing?",
+          "target": "线条消失了？"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "You may have noticed that your handwriting lines have started disapearing...",
+          "target": "你可能已经注意到你的手写线条开始消失了..."
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "To help keep writing smooth...",
+          "target": "为帮助保持书写流畅..."
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Hiding old strokes helps keep pen latency down and the writing experience smooth.",
+          "target": "隐藏旧笔画有助于降低笔延迟，让书写体验更顺滑。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Never fear though, all your strokes still exist and will become visible again later.",
+          "target": "不过别担心，你的所有笔画仍然存在，之后会再次显示。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "You can adjust the stroke limit in the settings.",
+          "target": "你可以在设置中调整笔画限制。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Changes in Ink v0.3.4",
+          "target": "Ink v0.3.4 的更新内容"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Fixed update notice text colour in light mode (That's why you can read this!).",
+          "target": "修复了浅色模式下更新通知文本颜色（这就是你能读到这段文字的原因！）。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Moved Undo/Redo buttons to prevent accidental back button taps.",
+          "target": "移动了撤销/重做按钮，以防误触返回按钮。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Added new command icons.",
+          "target": "新增了命令图标。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "Added extra blank lines while writing.",
+          "target": "写作时新增了额外空行。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setText",
+          "source": "View release video",
+          "target": "查看发布视频"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setTooltip",
+          "source": "X (Twitter)",
+          "target": "X（Twitter）"
+        },
+        {
+          "type": "CallExpression",
+          "name": "setTooltip",
+          "source": "Support developer",
+          "target": "支持开发者"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "preventDefault called on event:",
+          "target": "事件中调用了 preventDefault："
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "Release without capture",
+          "target": "未捕获就释放"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "Invalid instance state",
+          "target": "无效的实例状态"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "No version in instance state",
+          "target": "实例状态中没有版本"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "User not found",
+          "target": "未找到用户"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "You should set the userId for the current instance before following a user",
+          "target": "在关注用户之前应为当前实例设置 userId"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "No main translations found.",
+          "target": "未找到主要翻译。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "setSelf function cannot be used with read-only atom",
+          "target": "setSelf 函数不能用于只读 atom"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "setSelf function cannot be called in sync",
+          "target": "setSelf 函数不能在同步中调用"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "Detected multiple Jotai instances. It may cause unexpected behavior with the default store. https://github.com/pmndrs/jotai/discussions/2044",
+          "target": "检测到多个 Jotai 实例。这可能会导致默认 store 出现意外行为。https://github.com/pmndrs/jotai/discussions/2044"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "There was an error accessing the note's folder. Placing the new file in the vault's root instead.",
+          "target": "访问笔记文件夹时出错。将改为把新文件放在 vault 根目录中。"
+        },
+        {
+          "type": "CallExpression",
+          "name": "warn",
+          "source": "The `pre` method always must return a valid DomNode (instanceof Node) - your modification will be ignored (Hint: if you want to render a React-component, use the `post` method instead)",
+          "target": "`pre` 方法必须始终返回有效的 DomNode（instanceof Node）— 你的修改将被忽略（提示：如果你想渲染 React 组件，请改用 `post` 方法）"
+        },
+        {
+          "type": "NewExpression",
+          "name": "Notice",
+          "source": "There was an error finding a non-conflicting filename.",
+          "target": "查找无冲突文件名时出错。"
+        },
+        {
+          "type": "NewExpression",
+          "name": "Notice",
+          "source": "No file found to copy",
+          "target": "未找到可复制的文件"
+        },
+        {
+          "type": "NewExpression",
+          "name": "Notice",
+          "source": "Drawing file copied.\nRun 'Copied Drawing' where desired in a note.",
+          "target": "绘图文件已复制。\n在笔记中需要的位置运行“Copied Drawing”。"
+        },
+        {
+          "type": "NewExpression",
+          "name": "Notice",
+          "source": "Writing file copied.\nRun 'Copied Writing Section' where desired in a note.",
+          "target": "书写文件已复制。\n在笔记中需要的位置运行“Copied Writing Section”。"
+        },
+        {
+          "type": "NewExpression",
+          "name": "Notice",
+          "source": "Cannot insert.\nCopied drawing file no longer exists.",
+          "target": "无法插入。\n已复制的绘图文件不再存在。"
+        },
+        {
+          "type": "NewExpression",
+          "name": "Notice",
+          "source": "Drawing file duplicated",
+          "target": "绘图文件已复制副本"
+        },
+        {
+          "type": "NewExpression",
+          "name": "Notice",
+          "source": "Insert cancelled.",
+          "target": "插入已取消。"
+        },
+        {
+          "type": "NewExpression",
+          "name": "Notice",
+          "source": "Cannot insert.\nCopied writing file no longer exists.",
+          "target": "无法插入。\n已复制的书写文件不再存在。"
+        },
+        {
+          "type": "NewExpression",
+          "name": "Notice",
+          "source": "Writing file duplicated",
+          "target": "书写文件已复制副本"
+        },
+        {
+          "type": "NewExpression",
+          "name": "Notice",
+          "source": "Ink plugin settings reset",
+          "target": "Ink 插件设置已重置"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "top_left handle",
+          "target": "左上控制点"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "top handle",
+          "target": "上方控制点"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "top_right handle",
+          "target": "右上控制点"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "right handle",
+          "target": "右侧控制点"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "bottom_right handle",
+          "target": "右下控制点"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "bottom handle",
+          "target": "下方控制点"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "bottom_left handle",
+          "target": "左下控制点"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "left handle",
+          "target": "左侧控制点"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "top target",
+          "target": "上方目标"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "right target",
+          "target": "右侧目标"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "bottom target",
+          "target": "底部目标"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "left target",
+          "target": "左侧目标"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "top-left target",
+          "target": "左上目标"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "top-right target",
+          "target": "右上目标"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "bottom-right target",
+          "target": "右下目标"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "bottom-left target",
+          "target": "左下目标"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "style panel styles",
+          "target": "样式面板样式"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "aria-label",
+          "source": "style panel text",
+          "target": "样式面板文字"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "description",
+          "source": "Hand write or draw directly between paragraphs in your notes using a digital pen, stylus, or Apple pencil. Useful for handwriting, sketches, scribbles, or even math equations and scientific notation. Runs on the tldraw framework and drawing provides an infinite canvas.",
+          "target": "使用数位笔、触控笔或 Apple Pencil 在笔记段落之间直接手写或绘图。适用于手写、草图、涂鸦，甚至数学方程和科学记号。基于 tldraw 框架运行，绘图提供无限画布。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "description",
+          "source": "Hey, attend to this thing over here. It might be important!",
+          "target": "嘿，注意这边的东西。它可能很重要！"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Bahasa Indonesia",
+          "target": "印尼语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Català",
+          "target": "加泰罗尼亚语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Čeština",
+          "target": "捷克语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Español",
+          "target": "西班牙语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Français",
+          "target": "法语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Português - Brasil",
+          "target": "葡萄牙语 - 巴西"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Português - Europeu",
+          "target": "葡萄牙语 - 欧洲"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Română",
+          "target": "罗马尼亚语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Slovenščina",
+          "target": "斯洛文尼亚语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Tiếng Việt",
+          "target": "越南语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Türkçe",
+          "target": "土耳其语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "עברית",
+          "target": "希伯来语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "عربي",
+          "target": "阿拉伯语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "فارسی",
+          "target": "波斯语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "کوردی",
+          "target": "库尔德语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "नेपाली",
+          "target": "尼泊尔语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "हिन्दी",
+          "target": "印地语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "తెలుగు",
+          "target": "泰卢固语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "ภาษาไทย",
+          "target": "泰语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "မြန်မာစာ",
+          "target": "缅甸语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "한국어",
+          "target": "韩语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "日本語",
+          "target": "日语"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "简体中文",
+          "target": "简体中文"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "繁體中文 (台灣)",
+          "target": "繁体中文（中国台湾省）"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Go Back",
+          "target": "返回"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Show dialog",
+          "target": "显示对话框"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Create 100 shapes",
+          "target": "创建 100 个形状"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Count shapes / nodes",
+          "target": "统计形状/节点"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Throw error",
+          "target": "抛出错误"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Hard reset",
+          "target": "硬重置"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Debug Flags",
+          "target": "调试标志"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "label",
+          "source": "Feature Flags",
+          "target": "功能标志"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "message",
+          "source": "Revert to default settings for Ink plugin?",
+          "target": "是否将 Ink 插件恢复为默认设置？"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Page 1",
+          "target": "第 1 页"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "New User",
+          "target": "新用户"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Handwritten Note",
+          "target": "手写笔记"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "New handwriting section",
+          "target": "新的手写部分"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Existing handwriting section",
+          "target": "现有的手写部分"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Copied handwriting section",
+          "target": "已复制的手写部分"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "New drawing",
+          "target": "新建绘图"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Existing drawing",
+          "target": "现有绘图"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "name",
+          "source": "Copied drawing",
+          "target": "复制的绘图"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "Expand setup tips",
+          "target": "展开设置提示"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "For information on this plugin's development, visit the links below. Feel free to leave comments in the development diaries on YouTube.",
+          "target": "有关此插件开发的信息，请访问以下链接。欢迎在 YouTube 的开发日志中留言。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "Latest Changes",
+          "target": "最新更改"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "Development Diaries.",
+          "target": "开发日志。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "Request feature / Report bug.",
+          "target": "请求功能 / 报告错误。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "This plugin is in an Alpha state (Expand for details)",
+          "target": "此插件处于 Alpha 状态（展开查看详情）"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "What does Alpha mean? Development of products like this plugin often involve moving through multiple different stages (e.g. Alpha, Beta, then Standard Release).",
+          "target": "Alpha 是什么意思？像此插件这样的产品开发通常会经历多个不同阶段（例如 Alpha、Beta，然后是正式发布）。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "Alpha, the current stage, means that this plugin is in early development and may undergo large changes that break or change previous functionality.",
+          "target": "Alpha（当前阶段）表示此插件处于早期开发阶段，可能会经历导致破坏或改变先前功能的重大变更。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "While in Alpha, please exercise caution while using the plugin, however, note that I (The developer of this plugin) am proceeding with caution to help ensure any files created in this version will be compatible or converted to work with future versions (My own vaults depend on it as well).",
+          "target": "在 Alpha 阶段使用该插件时请谨慎。不过请注意，我（该插件的开发者）也在谨慎推进，以尽力确保此版本创建的任何文件在未来版本中仍可兼容或可被转换（这也关系到我自己的库）。"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "hsl(210, 17%, 98%)",
+          "target": "hsl(210, 17%, 98%)"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "Copy writing",
+          "target": "复制书写"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "Copy drawing",
+          "target": "复制绘图"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "Open drawing",
+          "target": "打开绘图"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "text",
+          "source": "Grid on/off",
+          "target": "网格 开/关"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Please confirm",
+          "target": "请确认"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Google Maps",
+          "target": "Google 地图"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Val Town",
+          "target": "Val Town"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Google Calendar",
+          "target": "Google 日历"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Google Slides",
+          "target": "Google 幻灯片"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "GitHub Gist",
+          "target": "GitHub Gist"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Changed Page",
+          "target": "已更改的页面"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Something good happened",
+          "target": "发生了好事"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Something happened",
+          "target": "发生了某事"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Something maybe bad happened",
+          "target": "可能发生了坏事"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Something bad happened",
+          "target": "发生了坏事"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Debug menu",
+          "target": "调试菜单"
+        },
+        {
+          "type": "ObjectProperty",
+          "name": "title",
+          "source": "Maximum Shapes Reached",
+          "target": "已达到最大形状数量"
         }
+      ],
+      "regex": []
     }
+  }
 }
